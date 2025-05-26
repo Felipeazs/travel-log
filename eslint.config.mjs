@@ -15,6 +15,7 @@ export default withNuxt(
 				semi: false,
 				quotes: "double",
 			},
+			ignores: ["./pnpm-store/"],
 		},
 		...pluginVue.configs["flat/recommended"],
 		{
