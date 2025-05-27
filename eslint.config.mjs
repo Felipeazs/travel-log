@@ -15,7 +15,7 @@ export default withNuxt(
 				semi: false,
 				quotes: "double",
 			},
-			ignores: ["./pnpm-store/"],
+			ignores: ["./pnpm-store/*"],
 		},
 		...pluginVue.configs["flat/recommended"],
 		{
@@ -23,6 +23,7 @@ export default withNuxt(
 				"vue/html-indent": ["error", "tab"],
 				"vue/html-closing-bracket-newline": "off",
 				"vue/multi-word-component-names": "off",
+				"vue/singleline-html-element-content-newline": "off",
 				"ts/consistent-type-definitions": ["error", "type"],
 				"no-console": ["warn"],
 				"antfu/no-top-level-await": ["off"],
