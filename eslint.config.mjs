@@ -21,6 +21,8 @@ export default withNuxt(
 		{
 			rules: {
 				"vue/html-indent": ["error", "tab"],
+				"vue/html-closing-bracket-newline": "off",
+				"vue/multi-word-component-names": "off",
 				"ts/consistent-type-definitions": ["error", "type"],
 				"no-console": ["warn"],
 				"antfu/no-top-level-await": ["off"],
